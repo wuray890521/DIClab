@@ -1,0 +1,113 @@
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s084: Started on Jan 17, 2024 at 19:47:26 CST
+irun
+	../00_TESTBED/TESTBED.v
+	-define RTL
+	-debug
+	-notimingchecks
+	-loadpli1 debpli:novas_pli_boot
+Recompiling... reason: file '../00_TESTBED/PATTERN.v' is newer than expected.
+	expected: Wed Jan 17 19:46:42 2024
+	actual:   Wed Jan 17 19:47:26 2024
+file: ../00_TESTBED/TESTBED.v
+    $fscanf (input_file1, "W1=%d,W2=%d,W3=%d,W4=%d,W5=%d,W6=%d,W7=%d,W8=%d,W9=%d,W10=%d,W11=%d,W12=%d,W13=%d,W14=%d,W15=%d,W16=%d,W17=%d,W18=%d,W19=%d,W20=%d,W21=%d,W22=%d,W23=%d,W24=%d,W25=%d,W26=%d,W27=%d,W28=%d,W29=%d,W30=%d,W31=%d,W32=%d",
+          |
+ncvlog: *W,NOSYST (../00_TESTBED/PATTERN.v,202|10): System function '$fscanf' invoked as a task. Return value will be ignored.
+(`include file: ../00_TESTBED/PATTERN.v line 202, file: ../00_TESTBED/TESTBED.v line 8)
+        $fscanf(input_file2, "%h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h %h",
+              |
+ncvlog: *W,NOSYST (../00_TESTBED/PATTERN.v,218|14): System function '$fscanf' invoked as a task. Return value will be ignored.
+(`include file: ../00_TESTBED/PATTERN.v line 218, file: ../00_TESTBED/TESTBED.v line 8)
+	module worklib.PATTERN:v
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		TESTBED
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.PATTERN:v <0x68544e93>
+			streams:  15, words: 43055
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 3       3
+		Registers:              53      53
+		Scalar wires:            7       -
+		Vectored wires:          3       -
+		Always blocks:          11      11
+		Initial blocks:          6       6
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.TESTBED:v
+Loading snapshot worklib.TESTBED:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_P-2019.06, Linux x86_64/64bit, 05/26/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'Final.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +mda dumping.
+*Verdi* : End of traversing.
+[0;34mPASS PATTERN NO.          1[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.          2[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.          3[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.          4[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.          5[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.          6[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.          7[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.          8[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.          9[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         10[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         11[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         12[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         13[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         14[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         15[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         16[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         17[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         18[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         19[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         20[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         21[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         22[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         23[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         24[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         25[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         26[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         27[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         28[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         29[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         30[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         31[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         32[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         33[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         34[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         35[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         36[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         37[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         38[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         39[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         40[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         41[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         42[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         43[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         44[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         45[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         46[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         47[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         48[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         49[m [0;32m Cycles:  x[m
+[0;34mPASS PATTERN NO.         50[m [0;32m Cycles:  x[m
+----------------------------------------------------------------------------------------------------------------------
+                                                  Congratulations!                						            
+                                           You have passed all patterns!          						            
+----------------------------------------------------------------------------------------------------------------------
+Simulation complete via $finish(1) at time 7150 NS + 0
+../00_TESTBED/PATTERN.v:309 $finish;	
+ncsim> exit
+TOOL:	irun(64)	15.20-s084: Exiting on Jan 17, 2024 at 19:47:27 CST  (total: 00:00:01)

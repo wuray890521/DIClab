@@ -1,0 +1,217 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 23 1920 1017 197 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/dic/dic324/final/01_RTL/Final.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 141400.000000
+cursor 70000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 129
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/RAID2/COURSE/dic/dic324/final/01_RTL/Final.fsdb"
+addSignal -h 15 /TESTBED/clk
+addSignal -h 15 -holdScope in_valid
+addSignal -h 15 -holdScope out_valid
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope weight_valid
+addSignal -h 15 -holdScope OUT[12:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope I1[3:0]
+addSignal -h 15 -holdScope I2[3:0]
+addSignal -h 15 -holdScope I3[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W1[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W2[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W3[3:0]
+addSignal -h 15 /TESTBED/u_Final/flag
+addGroup "G4"
+addGroup "I1~32" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /TESTBED/I1[3:0]
+addSignal -h 15 -holdScope I2[3:0]
+addSignal -h 15 -holdScope I3[3:0]
+addSignal -h 15 -holdScope I4[3:0]
+addSignal -h 15 -holdScope I5[3:0]
+addSignal -h 15 -holdScope I6[3:0]
+addSignal -h 15 -holdScope I7[3:0]
+addSignal -h 15 -holdScope I8[3:0]
+addSignal -h 15 -holdScope I9[3:0]
+addSignal -h 15 -holdScope I10[3:0]
+addSignal -h 15 -holdScope I11[3:0]
+addSignal -h 15 -holdScope I12[3:0]
+addSignal -h 15 -holdScope I13[3:0]
+addSignal -h 15 -holdScope I14[3:0]
+addSignal -h 15 -holdScope I15[3:0]
+addSignal -h 15 -holdScope I16[3:0]
+addSignal -h 15 -holdScope I17[3:0]
+addSignal -h 15 -holdScope I18[3:0]
+addSignal -h 15 -holdScope I19[3:0]
+addSignal -h 15 -holdScope I20[3:0]
+addSignal -h 15 -holdScope I21[3:0]
+addSignal -h 15 -holdScope I22[3:0]
+addSignal -h 15 -holdScope I23[3:0]
+addSignal -h 15 -holdScope I24[3:0]
+addSignal -h 15 -holdScope I25[3:0]
+addSignal -h 15 -holdScope I26[3:0]
+addSignal -h 15 -holdScope I27[3:0]
+addSignal -h 15 -holdScope I28[3:0]
+addSignal -h 15 -holdScope I29[3:0]
+addSignal -h 15 -holdScope I30[3:0]
+addSignal -h 15 -holdScope I31[3:0]
+addSignal -h 15 -holdScope I32[3:0]
+addGroup "W1~32" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/W1[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W2[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W3[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W4[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W5[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W6[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W7[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W8[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W9[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W10[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W11[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W12[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W13[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W14[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W15[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W16[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W17[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W18[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W19[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W20[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W21[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W22[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W23[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W24[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W25[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W26[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W27[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W28[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W29[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W30[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W31[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope W32[3:0]
+addGroup "fROM Pattern"
+addSignal -h 15 /TESTBED/u_PATTERN/Golden[31:0]
+addGroup "G6"
+addSignal -h 15 /TESTBED/u_PATTERN/Input[0:31]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_length[31:0]
+addSignal -h 15 -holdScope P_weight[0:31]
+addGroup "G7"
+addSignal -h 15 /TESTBED/u_PATTERN/latency[30:0]
+addGroup "G8"
+addSignal -h 15 /TESTBED/u_Final/cnt[9:0]
+addSignal -h 15 -holdScope inputs[0:31]
+addSignal -h 15 -holdScope weight[0:31]
+addSignal -h 15 -holdScope add_ans1[0:15]
+addSignal -h 15 -holdScope add_ans2[0:7]
+addSignal -h 15 -holdScope add_ans3[0:3]
+addSignal -h 15 -holdScope add_ans4[0:1]
+addSignal -expanded -h 15 -holdScope mul_ans[0:31]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[0][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[1][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[2][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[3][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[4][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[5][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[6][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[7][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[8][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[9][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[10][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[11][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[12][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[13][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[14][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[15][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[16][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[17][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[18][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[19][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[20][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[21][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[22][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[23][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[24][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[25][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[26][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[27][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[28][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[29][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[30][7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mul_ans[31][7:0]
+addGroup "G9"
+addSignal -h 15 /TESTBED/u_Final/I1[3:0]
+addSignal -h 15 -holdScope I2[3:0]
+addSignal -h 15 -holdScope I3[3:0]
+addSignal -h 15 -holdScope I4[3:0]
+addSignal -h 15 -holdScope I5[3:0]
+addSignal -h 15 -holdScope I6[3:0]
+addSignal -h 15 -holdScope I7[3:0]
+addSignal -h 15 -holdScope I8[3:0]
+addSignal -h 15 -holdScope I22[3:0]
+addSignal -h 15 -holdScope I23[3:0]
+addSignal -h 15 -holdScope I24[3:0]
+addSignal -h 15 -holdScope I25[3:0]
+addSignal -h 15 -holdScope I26[3:0]
+addSignal -h 15 -holdScope I27[3:0]
+addSignal -h 15 -holdScope I28[3:0]
+addSignal -h 15 -holdScope I29[3:0]
+addGroup "G10"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/RAID2/COURSE/dic/dic324/final/01_RTL/Final.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/TESTBED"
+"/TESTBED/u_Final"
+"/TESTBED/u_PATTERN"
+
+SCOPE_LIST_BEGIN
+"/TESTBED"
+"/TESTBED/u_Final"
+"/TESTBED/u_PATTERN"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
