@@ -1,0 +1,6 @@
+Command Line: /usr/cad/synopsys/verdi/2019.06/platform/LINUXAMD64/bin/fsdb2vcd /RAID2/COURSE/dic/dic324/final/with_clkgating/03_GATE/Final_SYN.fsdb
+uname(Linux ee30 3.10.0-1160.88.1.el7.x86_64 #1 SMP Tue Mar 7 15:41:52 UTC 2023 x86_64)
+Load signals (0)-(8130000) time 0.066326 0.232997 0.501747 delta 82903040 82903040 total 384454656 384454656
+Write signals (0)-(8130000) time 1.536904 0.877617 0.000000 delta 2396160 2396160 total 386850816 386850816
+Unload (0)-(8130000) time 0.002595 0.002595 0.000000 delta 0 0 total 386850816 386850816
+au time 2.120349 1.178606 0.525827 delta 118251520 118251520 total 222388224 222388224

@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : Final
+Version: T-2022.03
+Date   : Wed Jan 17 20:21:46 2024
+****************************************
+
+Library(s) Used:
+
+    asap7sc7p5t_INVBUF_RVT_TT_08302018 (File: /RAID2/COURSE/dic/dic324/final/with_clkgating/02_SYN/asap7sc7p5t_INVBUF_RVT_TT_08302018.db)
+    asap7sc7p5t_SIMPLE_RVT_TT_08302018 (File: /RAID2/COURSE/dic/dic324/final/with_clkgating/02_SYN/asap7sc7p5t_SIMPLE_RVT_TT_08302018.db)
+    asap7sc7p5t_SEQ_RVT_TT_08302018 (File: /RAID2/COURSE/dic/dic324/final/with_clkgating/02_SYN/asap7sc7p5t_SEQ_RVT_TT_08302018.db)
+
+Number of ports:                         1783
+Number of nets:                          7023
+Number of cells:                         5095
+Number of combinational cells:           4457
+Number of sequential cells:               574
+Number of macros/black boxes:               0
+Number of buf/inv:                        768
+Number of references:                      83
+
+Combinational area:               5726.557446
+Buf/Inv area:                      554.506567
+Noncombinational area:            3402.622049
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  9129.179495
+Total area:                 undefined
+1
