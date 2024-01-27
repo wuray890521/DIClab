@@ -1,0 +1,51 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Final
+Version: T-2022.03
+Date   : Wed Jan 17 16:24:41 2024
+****************************************
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_INVBUF_RVT_TT_08302018
+Wire Load Model Mode: top
+
+  Startpoint: in_valid (input port clocked by clk)
+  Endpoint: cnt_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                  500.00     500.00 r
+  in_valid (in)                                           0.00     500.00 r
+  U3011/Y (INVx1_ASAP7_75t_R)                             3.75     503.75 f
+  U3010/Y (INVx1_ASAP7_75t_R)                            44.43     548.17 r
+  U3009/Y (NOR2xp33_ASAP7_75t_R)                         39.76     587.93 f
+  U2982/Y (HB1xp67_ASAP7_75t_R)                          26.29     614.22 f
+  U2981/Y (HB1xp67_ASAP7_75t_R)                          46.77     660.99 f
+  U1353/Y (NAND2xp5_ASAP7_75t_R)                         39.22     700.21 r
+  U4005/Y (INVx1_ASAP7_75t_R)                            19.82     720.03 f
+  U1347/Y (NAND2xp5_ASAP7_75t_R)                         13.55     733.58 r
+  U1346/Y (AND3x1_ASAP7_75t_R)                           23.53     757.11 r
+  cnt_reg[0]/D (ASYNC_DFFHx1_ASAP7_75t_R)                 0.00     757.11 r
+  data arrival time                                                757.11
+
+  clock clk (rise edge)                                1000.00    1000.00
+  clock network delay (ideal)                             0.00    1000.00
+  cnt_reg[0]/CLK (ASYNC_DFFHx1_ASAP7_75t_R)               0.00    1000.00 r
+  library setup time                                    -16.90     983.10
+  data required time                                               983.10
+  --------------------------------------------------------------------------
+  data required time                                               983.10
+  data arrival time                                               -757.11
+  --------------------------------------------------------------------------
+  slack (MET)                                                      225.99
+
+
+1

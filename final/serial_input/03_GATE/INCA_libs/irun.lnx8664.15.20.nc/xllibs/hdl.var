@@ -1,0 +1,6 @@
+define LIB_MAP ( $LIB_MAP \
+, ../../../asap7sc7p5t_SIMPLE_RVT_TT_08302018.v => asap7sc7p5t_SIMPLE_RVT_TT_08302018 \
+)
+define LIB_MAP ( $LIB_MAP \
+, ../../../asap7sc7p5t_SIMPLE_RVT_TT_08302018.v => asap7sc7p5t_SIMPLE_RVT_TT_08302018 \
+)
