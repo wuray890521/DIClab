@@ -1,0 +1,20 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03
+Date:        Wed Jan 17 19:28:13 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               6
+    Cells do not drive (LINT-1)                                     6
+--------------------------------------------------------------------------------
+
+Warning: In design 'Final', cell 'C2636' does not drive any nets. (LINT-1)
+Warning: In design 'Final', cell 'C2653' does not drive any nets. (LINT-1)
+Warning: In design 'Final', cell 'C2661' does not drive any nets. (LINT-1)
+Warning: In design 'Final', cell 'C2667' does not drive any nets. (LINT-1)
+Warning: In design 'Final', cell 'C2672' does not drive any nets. (LINT-1)
+Warning: In design 'Final', cell 'C2676' does not drive any nets. (LINT-1)
+1
