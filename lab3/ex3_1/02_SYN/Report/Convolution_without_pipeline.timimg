@@ -1,0 +1,187 @@
+Error: Unit conflict found: Constraint time unit is 'ns'; main library time unit is 'ps'. (IFS-001)
+Information: Updating design information... (UID-85)
+Warning: Design 'Convolution_without_pipeline' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Convolution_without_pipeline
+Version: T-2022.03
+Date   : Mon Nov 13 10:47:59 2023
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_INVBUF_RVT_TT_08302018
+Wire Load Model Mode: top
+
+  Startpoint: in_reg[2][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Out_OFM_reg[34]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  in_reg[2][3]/CLK (ASYNC_DFFHx1_ASAP7_75t_R)             0.00 #     0.00 r
+  in_reg[2][3]/QN (ASYNC_DFFHx1_ASAP7_75t_R)             57.21      57.21 r
+  U17786/Y (INVxp67_ASAP7_75t_R)                         13.54      70.75 f
+  U19844/Y (AND2x2_ASAP7_75t_R)                          21.26      92.02 f
+  U17782/Y (AND2x2_ASAP7_75t_R)                          21.04     113.06 f
+  U17943/Y (AND2x2_ASAP7_75t_R)                          30.05     143.11 f
+  U17664/Y (NAND2xp5_ASAP7_75t_R)                        12.52     155.63 r
+  U31379/Y (NAND3xp33_ASAP7_75t_R)                       13.55     169.18 f
+  U31381/Y (NOR5xp2_ASAP7_75t_R)                         27.43     196.61 r
+  U20050/Y (NAND2xp33_ASAP7_75t_R)                       15.03     211.64 f
+  U31391/Y (OR2x2_ASAP7_75t_R)                           26.67     238.30 f
+  mult_231_3/a[1] (Convolution_without_pipeline_DW_mult_uns_19)
+                                                          0.00     238.30 f
+  mult_231_3/U1577/Y (BUFx3_ASAP7_75t_R)                 25.00     263.30 f
+  mult_231_3/U1650/Y (XOR2xp5_ASAP7_75t_R)               21.81     285.11 f
+  mult_231_3/U1459/Y (NAND2xp5_ASAP7_75t_R)              15.06     300.17 r
+  mult_231_3/U1587/Y (NAND2x1_ASAP7_75t_R)               12.55     312.72 f
+  mult_231_3/U614/CON (FAx1_ASAP7_75t_R)                 19.51     332.23 r
+  mult_231_3/U2290/Y (INVx1_ASAP7_75t_R)                 15.23     347.45 f
+  mult_231_3/U603/CON (FAx1_ASAP7_75t_R)                 27.32     374.78 r
+  mult_231_3/U591/SN (FAx1_ASAP7_75t_R)                  41.71     416.48 f
+  mult_231_3/U1589/Y (INVxp67_ASAP7_75t_R)               13.82     430.30 r
+  mult_231_3/U1614/Y (INVx1_ASAP7_75t_R)                 10.88     441.19 f
+  mult_231_3/U590/SN (FAx1_ASAP7_75t_R)                  36.55     477.73 f
+  mult_231_3/U2294/Y (INVx1_ASAP7_75t_R)                 17.13     494.87 r
+  mult_231_3/U1751/Y (NOR2x1_ASAP7_75t_R)                13.64     508.51 f
+  mult_231_3/U2371/Y (NOR2x1_ASAP7_75t_R)                11.74     520.25 r
+  mult_231_3/U1497/Y (NOR2xp67_ASAP7_75t_R)               9.84     530.09 f
+  mult_231_3/U2374/Y (OR2x2_ASAP7_75t_R)                 23.57     553.66 f
+  mult_231_3/U1325/Y (NAND2x1p5_ASAP7_75t_R)             11.40     565.06 r
+  mult_231_3/U1345/Y (OR2x2_ASAP7_75t_R)                 23.17     588.22 r
+  mult_231_3/U1526/Y (XNOR2x1_ASAP7_75t_R)               23.36     611.59 r
+  mult_231_3/product[15] (Convolution_without_pipeline_DW_mult_uns_19)
+                                                          0.00     611.59 r
+  add_7_root_add_0_root_add_231_8/A[15] (Convolution_without_pipeline_DW01_add_41)
+                                                          0.00     611.59 r
+  add_7_root_add_0_root_add_231_8/U372/Y (NOR2x1_ASAP7_75t_R)
+                                                         13.13     624.71 f
+  add_7_root_add_0_root_add_231_8/U563/Y (OR2x2_ASAP7_75t_R)
+                                                         24.47     649.18 f
+  add_7_root_add_0_root_add_231_8/U342/Y (NAND2x1p5_ASAP7_75t_R)
+                                                          9.92     659.10 r
+  add_7_root_add_0_root_add_231_8/U363/Y (INVx2_ASAP7_75t_R)
+                                                          7.38     666.48 f
+  add_7_root_add_0_root_add_231_8/U418/Y (AND2x4_ASAP7_75t_R)
+                                                         17.65     684.13 f
+  add_7_root_add_0_root_add_231_8/U338/Y (NAND2x1p5_ASAP7_75t_R)
+                                                          9.55     693.68 r
+  add_7_root_add_0_root_add_231_8/U337/Y (NAND2x1p5_ASAP7_75t_R)
+                                                          9.07     702.76 f
+  add_7_root_add_0_root_add_231_8/U328/Y (NOR2x1_ASAP7_75t_R)
+                                                          8.23     710.98 r
+  add_7_root_add_0_root_add_231_8/U494/Y (OR2x2_ASAP7_75t_R)
+                                                         19.86     730.84 r
+  add_7_root_add_0_root_add_231_8/U475/Y (AND2x4_ASAP7_75t_R)
+                                                         19.68     750.52 r
+  add_7_root_add_0_root_add_231_8/U415/Y (NOR2x1p5_ASAP7_75t_R)
+                                                          9.05     759.56 f
+  add_7_root_add_0_root_add_231_8/U545/Y (NOR2x1p5_ASAP7_75t_R)
+                                                         11.03     770.59 r
+  add_7_root_add_0_root_add_231_8/U544/Y (NOR2x1p5_ASAP7_75t_R)
+                                                         10.02     780.61 f
+  add_7_root_add_0_root_add_231_8/U432/Y (XNOR2x1_ASAP7_75t_R)
+                                                         22.63     803.24 f
+  add_7_root_add_0_root_add_231_8/SUM[22] (Convolution_without_pipeline_DW01_add_41)
+                                                          0.00     803.24 f
+  add_3_root_add_0_root_add_231_8/B[22] (Convolution_without_pipeline_DW01_add_30)
+                                                          0.00     803.24 f
+  add_3_root_add_0_root_add_231_8/U536/Y (NOR2x1p5_ASAP7_75t_R)
+                                                         12.69     815.93 r
+  add_3_root_add_0_root_add_231_8/U544/Y (INVx2_ASAP7_75t_R)
+                                                          8.27     824.20 f
+  add_3_root_add_0_root_add_231_8/U461/Y (NAND2xp5_ASAP7_75t_R)
+                                                          9.69     833.89 r
+  add_3_root_add_0_root_add_231_8/U539/Y (NOR2xp67_ASAP7_75t_R)
+                                                          9.97     843.86 f
+  add_3_root_add_0_root_add_231_8/U578/Y (AND2x2_ASAP7_75t_R)
+                                                         20.64     864.51 f
+  add_3_root_add_0_root_add_231_8/U398/Y (NOR2x1_ASAP7_75t_R)
+                                                          9.51     874.02 r
+  add_3_root_add_0_root_add_231_8/U583/Y (OR2x2_ASAP7_75t_R)
+                                                         18.70     892.72 r
+  add_3_root_add_0_root_add_231_8/U538/Y (NAND2x1p5_ASAP7_75t_R)
+                                                          9.38     902.10 f
+  add_3_root_add_0_root_add_231_8/U396/Y (NAND2x1_ASAP7_75t_R)
+                                                         11.14     913.24 r
+  add_3_root_add_0_root_add_231_8/U466/Y (AND2x4_ASAP7_75t_R)
+                                                         21.99     935.23 r
+  add_3_root_add_0_root_add_231_8/U470/Y (NOR2x1_ASAP7_75t_R)
+                                                         11.75     946.98 f
+  add_3_root_add_0_root_add_231_8/U330/Y (NOR2x1p5_ASAP7_75t_R)
+                                                         13.01     960.00 r
+  add_3_root_add_0_root_add_231_8/U435/Y (XNOR2x1_ASAP7_75t_R)
+                                                         22.81     982.81 r
+  add_3_root_add_0_root_add_231_8/SUM[28] (Convolution_without_pipeline_DW01_add_30)
+                                                          0.00     982.81 r
+  add_1_root_add_0_root_add_231_8/B[28] (Convolution_without_pipeline_DW01_add_27)
+                                                          0.00     982.81 r
+  add_1_root_add_0_root_add_231_8/U488/Y (NOR2x1_ASAP7_75t_R)
+                                                         14.69     997.49 f
+  add_1_root_add_0_root_add_231_8/U545/Y (INVx1_ASAP7_75t_R)
+                                                         13.79    1011.28 r
+  add_1_root_add_0_root_add_231_8/U466/Y (NAND2x1p5_ASAP7_75t_R)
+                                                         10.28    1021.56 f
+  add_1_root_add_0_root_add_231_8/U552/Y (NAND2x1p5_ASAP7_75t_R)
+                                                         12.67    1034.23 r
+  add_1_root_add_0_root_add_231_8/U387/Y (NOR2x1_ASAP7_75t_R)
+                                                         14.01    1048.24 f
+  add_1_root_add_0_root_add_231_8/U558/Y (NOR2x1_ASAP7_75t_R)
+                                                         11.40    1059.65 r
+  add_1_root_add_0_root_add_231_8/U519/Y (NOR2x1_ASAP7_75t_R)
+                                                         10.44    1070.08 f
+  add_1_root_add_0_root_add_231_8/U418/Y (XNOR2xp5_ASAP7_75t_R)
+                                                         25.61    1095.69 f
+  add_1_root_add_0_root_add_231_8/SUM[30] (Convolution_without_pipeline_DW01_add_27)
+                                                          0.00    1095.69 f
+  add_0_root_add_0_root_add_231_8/B[30] (Convolution_without_pipeline_DW01_add_20)
+                                                          0.00    1095.69 f
+  add_0_root_add_0_root_add_231_8/U558/Y (NOR2x1_ASAP7_75t_R)
+                                                         14.98    1110.67 r
+  add_0_root_add_0_root_add_231_8/U494/Y (NOR2x1_ASAP7_75t_R)
+                                                         14.19    1124.86 f
+  add_0_root_add_0_root_add_231_8/U557/Y (NAND2xp33_ASAP7_75t_R)
+                                                         15.78    1140.64 r
+  add_0_root_add_0_root_add_231_8/U802/Y (OR2x2_ASAP7_75t_R)
+                                                         21.78    1162.42 r
+  add_0_root_add_0_root_add_231_8/U554/Y (NAND2x1p5_ASAP7_75t_R)
+                                                          8.82    1171.24 f
+  add_0_root_add_0_root_add_231_8/U553/Y (NOR2x1p5_ASAP7_75t_R)
+                                                         11.45    1182.69 r
+  add_0_root_add_0_root_add_231_8/U485/Y (NAND2xp5_ASAP7_75t_R)
+                                                          8.97    1191.67 f
+  add_0_root_add_0_root_add_231_8/U805/Y (AND2x2_ASAP7_75t_R)
+                                                         20.96    1212.63 f
+  add_0_root_add_0_root_add_231_8/U794/Y (NOR2x1p5_ASAP7_75t_R)
+                                                          9.06    1221.69 r
+  add_0_root_add_0_root_add_231_8/U803/Y (XOR2xp5_ASAP7_75t_R)
+                                                         20.35    1242.04 r
+  add_0_root_add_0_root_add_231_8/SUM[34] (Convolution_without_pipeline_DW01_add_20)
+                                                          0.00    1242.04 r
+  U32110/Y (NAND2xp5_ASAP7_75t_R)                        10.35    1252.38 f
+  Out_OFM_reg[34]/D (ASYNC_DFFHx1_ASAP7_75t_R)            0.00    1252.38 f
+  data arrival time                                               1252.38
+
+  clock clk (rise edge)                                1000.00    1000.00
+  clock network delay (ideal)                             0.00    1000.00
+  Out_OFM_reg[34]/CLK (ASYNC_DFFHx1_ASAP7_75t_R)          0.00    1000.00 r
+  library setup time                                    -21.99     978.01
+  data required time                                               978.01
+  --------------------------------------------------------------------------
+  data required time                                               978.01
+  data arrival time                                              -1252.38
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -274.37
+
+
+1
