@@ -1,0 +1,63 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 11:39:07 on Mon Oct 30 2023 (Linux AMD64) ###
+### Host Name: ee30   User ID: dic324   PID: 219096   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 190 213
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 1914 31
+wv_move_window {Custom WaveView} {} 1920 23
+wv_press_tool_button {Custom WaveView} {} {RecentFile2} 
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:ex2_4.tr0(0)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:ex2_4.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:ex2_4.tr0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:ex2_4.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:ex2_4.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:ex2_4.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a[0])} 5
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a[0])} 5
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a[1])} 6
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a[1])} 6
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a[2])} 7
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a[2])} 7
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a[3])} 8
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a[3])} 8
+wv_select_list_item {Custom WaveView} {} {sigview} {v(b[0])} 9
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(b[0])} 9
+wv_select_list_item {Custom WaveView} {} {sigview} {v(b[1])} 10
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(b[1])} 10
+wv_select_list_item {Custom WaveView} {} {sigview} {v(b[2])} 11
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(b[2])} 11
+wv_select_list_item {Custom WaveView} {} {sigview} {v(b[3])} 12
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(b[3])} 12
+wv_select_list_item {Custom WaveView} {} {sigview} {v(output[0])} 30
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(output[0])} 30
+wv_select_list_item {Custom WaveView} {} {sigview} {v(output[1])} 31
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(output[1])} 31
+wv_select_list_item {Custom WaveView} {} {sigview} {v(output[2])} 32
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(output[2])} 32
+wv_select_list_item {Custom WaveView} {} {sigview} {v(output[3])} 33
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(output[3])} 33
+wv_select_list_item {Custom WaveView} {} {sigview} {v(output[4])} 34
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(output[4])} 34
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL7:1.LEGEND
+wv_select_panel WV1.PANEL7:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.WIDTH
+wv_drag_item_to WV1 82 423
+wv_move_wv_item WV1.PANEL1:1.LEGEND.WIDTH 94
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.WIDTH
+wv_drag_item_to WV1 95 423
+wv_move_wv_item WV1.PANEL1:1.LEGEND.WIDTH 107
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL7:1.LEGEND
+wv_select_panel WV1.PANEL7:1.LEGEND
+wv_press_key Shift_S 655 573
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 0 0
