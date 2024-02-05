@@ -4,3 +4,4 @@
 
 
 # 參考資料
+1. https://www.synopsys.com/zh-tw/taiwan/blog/what-is-low-power-design.html
