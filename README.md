@@ -15,5 +15,5 @@ Study Journal:https://hackmd.io/QjRLsTeOQBitc5SMbIkgAg
 詳細解釋會在pdf中說明，在readme.md 中會提供程式大略思路。  
 
 # 感謝
-感謝實驗室同學和我討論hspice和verilog的程式邏輯。  
+感謝實驗室同學以及同組組員和我討論hspice和verilog的程式邏輯。  
 
