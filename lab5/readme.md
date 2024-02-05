@@ -11,8 +11,5 @@
 2. 當時脈clk為高電位時，en訊號的毛刺會傳播到時脈訊號GCLK中。
 # 解決方法
 透過一個暫存器或觸發器來同步en訊號，且clk為高電位時，暫存器或觸發器的輸出不變化。
-
-
 # 參考資料
 1. https://blog.csdn.net/eefresher/article/details/119516487
-2. 
