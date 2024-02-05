@@ -11,3 +11,9 @@ Study Journal:https://hackmd.io/QjRLsTeOQBitc5SMbIkgAg
 # 修課建議  
 對初次修課的建議要抱團討論。  
 
+# 資料存放方式
+詳細解釋會在pdf中說明，在readme.md 中會提供程式大略思路。  
+
+# 感謝
+感謝實驗室同學和我討論hspice和verilog的程式邏輯。  
+
