@@ -12,7 +12,8 @@ w/o pipeline 的總延遲就是 2Tpd，可以在一個時脈週期完成，但�
 使用pipeline design 時並非有利無害，大家需權衡考慮。  
 1. 功耗增加。  
 2. 面積增加。  
-3. 硬體複雜度增加，特別對於複雜邏輯如 cpu 的管線而言，流水越深，發生 需要 hold 管線或 reset 管線的情況時，時間損失越大。  
+3. 硬體複雜度增加，特別對於複雜邏輯如 cpu 的管線而言，pipeline切的越深,發生需要 hold or reset 訊號的情況時，時間損失越大。  
 
 # 參考資料
-https://blog.csdn.net/Times_poem/article/details/52033535
+1. https://blog.csdn.net/Times_poem/article/details/52033535
+2. 
