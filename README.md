@@ -1,6 +1,6 @@
 # DIClab
 * 數位積體電路  
-* 授課老師:黃柏蒼  
+* 授課老師:黃柏蒼教授  
 * Hspice Study Journal:https://hackmd.io/QjRLsTeOQBitc5SMbIkgAg  
 * Verilog Study Journal :  
 * 2023/fall  
